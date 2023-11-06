@@ -1,0 +1,32 @@
+.carrousel{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-container{
+    width: 100%;
+
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content:center ;
+
+}
+
+.card-carrousel{
+    width: 340px;
+    background-color: rgb(32, 32, 32);
+    border-radius:15px ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-shadow{
+    -webkit-filter: drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.9)); 
+    filter: drop-shadow(0px 0px 50px rgba(255, 255, 255, 0.9));
+}
